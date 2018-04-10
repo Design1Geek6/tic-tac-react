@@ -16,11 +16,13 @@ class Board extends Component {
 
         return(
             <div>
-            <header>
-                <h1></h1>
-            </header>
-            
-        </div>
+                <div className ='body'>
+                <header className ='header'>
+                    <h1>Tic Tac Toe</h1>
+                </header>
+                </div>
+                <div className = 'board'></div>
+            </div>
         )
     }
     componentDidMount(){

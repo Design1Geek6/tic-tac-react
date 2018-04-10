@@ -16,9 +16,12 @@ it( 'shallow render board correctly', () => {
     const result = renderer.getRenderOutput()
 
     expect(result.type).toBe('div')
-    expect(result.props.children).toEqual(
-        <header>
-            <h1></h1>
-        </header>
-    )
+    expect(result.props.children).toEqual([
+        <div className ='body'>
+            <header className ='header'>
+                <h1>Tic Tac Toe</h1>
+            </header>
+        </div>,
+        <div className = 'board'></div>
+    ])
 })
