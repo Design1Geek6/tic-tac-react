@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import BlankPiece from './BlankPiece'
+import OPiece from './OPiece'
+import XPiece from './XPiece'
 
 
 class Board extends Component {
@@ -23,7 +25,7 @@ class Board extends Component {
                 </header>
                 </div>
                 <div className = 'board'></div>
-                <BlankPiece />
+                <BlankPiece /> <OPiece /> <XPiece />
             </div>
             
         )

@@ -3,6 +3,8 @@ import Board from '../Board'
 import Renderer from 'react-test-renderer'
 import ShallowRenderer from 'react-test-renderer/shallow'
 import BlankPiece from '../BlankPiece'
+import OPiece from '../OPiece'
+import XPiece from '../XPiece'
 
 // it('renders correctly', () => {
 //     const tree = Renderer
@@ -24,6 +26,6 @@ it( 'shallow render board correctly', () => {
             </header>
         </div>,
         <div className = 'board'></div>,
-        <BlankPiece />
+        <BlankPiece />, <OPiece />, <XPiece />
     ])
 })
