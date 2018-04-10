@@ -17,7 +17,9 @@ class XPiece extends Component {
 
         return(
             <div>
-                test
+                <div className="box g7">*7</div>
+                <div className="box h8">*8</div>
+                <div className="box i9">*9</div>
             </div>
             
         )

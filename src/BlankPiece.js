@@ -17,7 +17,9 @@ class BlankPiece extends Component {
 
         return(
             <div>
-                test
+                <div className="box a1">*1</div>
+                <div className="box b2">*2</div>
+                <div className="box c3">*3</div>
             </div>
             
         )

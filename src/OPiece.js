@@ -17,7 +17,9 @@ class OPiece extends Component {
 
         return(
             <div>
-                test
+                <div className="box d4">*4</div>
+                <div className="box e5">*5</div>
+                <div className="box f6">*6</div>
             </div>
             
         )

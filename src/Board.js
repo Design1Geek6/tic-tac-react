@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Game.css'
 import BlankPiece from './BlankPiece'
 import OPiece from './OPiece'
 import XPiece from './XPiece'
@@ -24,8 +25,9 @@ class Board extends Component {
                     <h1>Tic Tac Toe</h1>
                 </header>
                 </div>
-                <div className = 'board'></div>
+                <div className = 'board'>
                 <BlankPiece /> <OPiece /> <XPiece />
+                </div>
             </div>
             
         )
