@@ -2,10 +2,11 @@ import React from 'react'
 import Board from '../Board'
 import Renderer from 'react-test-renderer'
 import ShallowRenderer from 'react-test-renderer/shallow'
+import BlankPiece from '../BlankPiece'
 
 // it('renders correctly', () => {
 //     const tree = Renderer
-//     .create(<Kitchen />)
+//     .create(<Board />)
 //     .toJSON()
 //     expect(tree).toMatchSnapshot()
 // })
@@ -22,6 +23,7 @@ it( 'shallow render board correctly', () => {
                 <h1>Tic Tac Toe</h1>
             </header>
         </div>,
-        <div className = 'board'></div>
+        <div className = 'board'></div>,
+        <BlankPiece />
     ])
 })

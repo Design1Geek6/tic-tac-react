@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BlankPiece from './BlankPiece'
 
 
 class Board extends Component {
@@ -22,7 +23,9 @@ class Board extends Component {
                 </header>
                 </div>
                 <div className = 'board'></div>
+                <BlankPiece />
             </div>
+            
         )
     }
     componentDidMount(){
