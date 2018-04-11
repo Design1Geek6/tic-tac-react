@@ -35,7 +35,6 @@ class Board extends Component {
                     <div class="box g"><XPiece /></div>
                     <div class="box h"><BlankPiece /></div>
                     <div class="box i"><XPiece /></div>
-                  
                 </div>
             </div>
             
