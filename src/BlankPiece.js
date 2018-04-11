@@ -16,12 +16,7 @@ class BlankPiece extends Component {
         console.log('BlankPiece.render()')
 
         return(
-            <div>
-                <div className="box a1">*1</div>
-                <div className="box b2">*2</div>
-                <div className="box c3">*3</div>
-            </div>
-            
+            <div></div>
         )
     }
     componentDidMount(){

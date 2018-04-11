@@ -16,12 +16,7 @@ class XPiece extends Component {
         console.log('XPiece.render()')
 
         return(
-            <div>
-                <div className="box g7">*7</div>
-                <div className="box h8">*8</div>
-                <div className="box i9">*9</div>
-            </div>
-            
+            <div>X</div>
         )
     }
     componentDidMount(){

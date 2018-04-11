@@ -25,7 +25,8 @@ it( 'shallow render board correctly', () => {
                 <h1>Tic Tac Toe</h1>
             </header>
         </div>,
-        <div className = 'board'></div>,
+        <div className = 'board'>,
         <BlankPiece />, <OPiece />, <XPiece />
+        </div>
     ])
 })

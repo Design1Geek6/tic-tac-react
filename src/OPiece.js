@@ -16,12 +16,7 @@ class OPiece extends Component {
         console.log('OPiece.render()')
 
         return(
-            <div>
-                <div className="box d4">*4</div>
-                <div className="box e5">*5</div>
-                <div className="box f6">*6</div>
-            </div>
-            
+                <div>O</div>
         )
     }
     componentDidMount(){
